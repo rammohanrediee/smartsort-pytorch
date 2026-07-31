@@ -1,0 +1,17 @@
+.DS_Store
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+.jupyter/
+data/raw/*
+data/processed/*
+data/jupyter/
+data/jupyter-config/
+data/kaggle/*
+models/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+!data/kaggle/.gitkeep
+!models/.gitkeep
