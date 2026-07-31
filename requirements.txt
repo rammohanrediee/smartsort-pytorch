@@ -10,3 +10,4 @@ tqdm
 jupyter
 kaggle
 pytest
+streamlit

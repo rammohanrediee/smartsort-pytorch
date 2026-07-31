@@ -15,3 +15,4 @@ models/*
 !data/processed/.gitkeep
 !data/kaggle/.gitkeep
 !models/.gitkeep
+!models/custom_cnn_best.pt

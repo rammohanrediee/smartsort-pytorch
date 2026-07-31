@@ -53,6 +53,21 @@ EPOCHS = 15
 Restart the kernel and run all cells. Keep `data/processed/splits.csv` unchanged when
 comparing models.
 
+## Streamlit app
+
+The app loads the saved custom CNN checkpoint and shows the predicted class, confidence,
+top-three probabilities, and a short sorting tip.
+
+```bash
+streamlit run app.py
+```
+
+To load a different compatible checkpoint:
+
+```bash
+SMARTSORT_MODEL_PATH=/path/to/checkpoint.pt streamlit run app.py
+```
+
 ## Setup
 
 ```bash
@@ -71,6 +86,8 @@ SmartSort/
 │   └── processed/
 ├── models/
 ├── notebooks/
+├── app.py
+├── inference.py
 ├── LICENSE
 ├── README.md
 └── requirements.txt
