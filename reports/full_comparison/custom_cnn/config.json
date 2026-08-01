@@ -1,0 +1,31 @@
+{
+  "model_name": "custom_cnn",
+  "epochs": 20,
+  "batch_size": 64,
+  "learning_rate": 0.001,
+  "weight_decay": 0.0001,
+  "patience": 5,
+  "image_size": 224,
+  "seed": 42,
+  "num_workers": 4,
+  "max_train_batches": null,
+  "max_eval_batches": null,
+  "device": "mps",
+  "split_counts": {
+    "train": 8581,
+    "validation": 1839,
+    "test": 1839
+  },
+  "class_names": [
+    "battery",
+    "biological",
+    "cardboard",
+    "clothes",
+    "glass",
+    "metal",
+    "paper",
+    "plastic",
+    "shoes",
+    "trash"
+  ]
+}
