@@ -1,0 +1,20 @@
+{
+  "model": "resnet18",
+  "parameters": 11181642,
+  "best_epoch": 7,
+  "best_validation_macro_f1": 0.8942533021238157,
+  "epochs_completed": 11,
+  "test": {
+    "accuracy": 0.8896139206090267,
+    "macro_precision": 0.872930878316744,
+    "macro_recall": 0.8835810476792612,
+    "macro_f1": 0.8771093180571494,
+    "loss": 0.3798350470101075,
+    "samples": 1839
+  },
+  "split_counts": {
+    "train": 8581,
+    "validation": 1839,
+    "test": 1839
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "model": "custom_cnn",
+  "parameters": 1175786,
+  "best_epoch": 17,
+  "best_validation_macro_f1": 0.5618286537168596,
+  "epochs_completed": 20,
+  "test": {
+    "accuracy": 0.564437194127243,
+    "macro_precision": 0.5543494160968095,
+    "macro_recall": 0.5730853955495797,
+    "macro_f1": 0.5572229845469854,
+    "loss": 1.291468713321136,
+    "samples": 1839
+  },
+  "split_counts": {
+    "train": 8581,
+    "validation": 1839,
+    "test": 1839
+  }
+}
